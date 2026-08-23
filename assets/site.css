@@ -243,3 +243,24 @@ a{color:inherit}
 .art__nota{max-width:66ch;margin:0 0 2rem;padding:.95rem 1.15rem;border-left:3px solid var(--cobre);
 background:color-mix(in srgb,var(--cobre) 7%,transparent);border-radius:0 6px 6px 0;
 font-size:.94rem;line-height:1.6}
+
+/* ---------------------------------------------------------- diagramas SVG */
+.dia{width:100%;height:auto;color:var(--tinta);display:block}
+.figdia{margin:0;max-width:640px}
+.figdia figcaption{margin-top:.6rem;font-size:.86rem;opacity:.62;line-height:1.5}
+.sec--dia .figdia{margin-top:1.8rem}
+.figdia--mod{margin:0 0 2.2rem;max-width:560px}
+
+/* desplegable de "no se mi medida" */
+.medir{max-width:640px;margin:0 0 2.6rem;border:1px solid var(--linea);
+border-radius:10px;background:var(--papel2,transparent);overflow:hidden}
+.medir summary{cursor:pointer;padding:.9rem 1.1rem;font-weight:600;font-size:.95rem;
+list-style:none;display:flex;align-items:center;gap:.6rem}
+.medir summary::-webkit-details-marker{display:none}
+.medir summary::before{content:"+";font-family:var(--mono);font-size:1.1rem;
+color:var(--cobre);transition:transform .18s ease}
+.medir[open] summary::before{content:"–"}
+.medir summary:hover{color:var(--cobre)}
+.medir__in{padding:0 1.1rem 1.2rem;display:grid;gap:1rem}
+.medir__in p{margin:0;font-size:.94rem;line-height:1.65;max-width:60ch}
+@media (min-width:720px){.medir__in{grid-template-columns:1fr 1fr;align-items:center}}
