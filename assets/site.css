@@ -276,3 +276,12 @@ font-size:.9rem;line-height:1.6;max-width:56ch}
 border:1px solid var(--cobre);border-radius:8px;
 background:color-mix(in srgb,var(--cobre) 9%,transparent)}
 .disputa p{margin:0;font-size:.94rem;line-height:1.65}
+
+/* tabla de medidas por marca */
+.tm{width:100%;border-collapse:collapse;font-size:.95rem}
+.tm th{text-align:left;font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;
+text-transform:uppercase;opacity:.6;padding:.6rem .8rem;border-bottom:1px solid var(--linea)}
+.tm td{padding:.62rem .8rem;border-bottom:1px solid var(--linea)}
+.tm tr:hover td{background:color-mix(in srgb,var(--cobre) 5%,transparent)}
+.tm__m{font-family:var(--mono);font-weight:600;white-space:nowrap}
+.tm__no{opacity:.42;font-size:.88em}
