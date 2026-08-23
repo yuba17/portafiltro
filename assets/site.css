@@ -238,3 +238,8 @@ a{color:inherit}
 .modcont p{margin:0 0 1rem}
 .modcont ul{margin:0 0 1.2rem;padding-left:1.15rem}
 .modcont li{margin-bottom:.5rem}
+
+/* aviso de pagina legal incompleta */
+.art__nota{max-width:66ch;margin:0 0 2rem;padding:.95rem 1.15rem;border-left:3px solid var(--cobre);
+background:color-mix(in srgb,var(--cobre) 7%,transparent);border-radius:0 6px 6px 0;
+font-size:.94rem;line-height:1.6}
