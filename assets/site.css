@@ -230,3 +230,11 @@ a{color:inherit}
 .relg{margin:0 0 2.6rem}
 .relg .glist{margin-top:.9rem}
 .relg .gitem a{padding:.95rem 1rem}
+.ficha2__afi{font-size:.79rem;color:var(--muted);margin:.7rem 0 0;line-height:1.45}
+
+/* contenido editorial dentro de la ficha de modelo */
+.modcont{max-width:66ch;margin:0 0 2.8rem;font-size:1.02rem;line-height:1.68}
+.modcont h2{font-family:var(--disp);font-weight:800;font-size:1.28rem;letter-spacing:-.025em;margin:2rem 0 .7rem}
+.modcont p{margin:0 0 1rem}
+.modcont ul{margin:0 0 1.2rem;padding-left:1.15rem}
+.modcont li{margin-bottom:.5rem}
