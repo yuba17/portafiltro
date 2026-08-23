@@ -225,3 +225,8 @@ a{color:inherit}
 .gitem__k{font-family:var(--mono);font-size:.65rem;letter-spacing:.09em;text-transform:uppercase;color:var(--cobre)}
 .gitem__t{font-family:var(--disp);font-weight:600;font-size:1.04rem;letter-spacing:-.015em;line-height:1.25}
 .gitem__d{font-size:.87rem;color:var(--muted);line-height:1.5}
+
+/* guias relacionadas dentro de la ficha de modelo */
+.relg{margin:0 0 2.6rem}
+.relg .glist{margin-top:.9rem}
+.relg .gitem a{padding:.95rem 1rem}
