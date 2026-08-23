@@ -264,3 +264,9 @@ color:var(--cobre);transition:transform .18s ease}
 .medir__in{padding:0 1.1rem 1.2rem;display:grid;gap:1rem}
 .medir__in p{margin:0;font-size:.94rem;line-height:1.65;max-width:60ch}
 @media (min-width:720px){.medir__in{grid-template-columns:1fr 1fr;align-items:center}}
+
+/* precio pendiente de proveedor */
+.pza__p--pend{opacity:.5;font-style:italic;font-size:.9em}
+.ficha2__pend{margin:.7rem 0 0;padding:.8rem 1rem;border-left:3px solid var(--cobre);
+background:color-mix(in srgb,var(--cobre) 7%,transparent);border-radius:0 6px 6px 0;
+font-size:.9rem;line-height:1.6;max-width:56ch}
