@@ -54,37 +54,50 @@
     averiguamos. Añadimos lo que confirmamos.</p>
   </div>
 
-  <figure class="figdia"><svg class="dia" viewBox="0 0 460 260" role="img"
-     aria-label="Diagrama de cómo medir el diámetro exterior de la cesta del portafiltro"
+  <figure class="figdia"><svg class="dia" viewBox="0 0 460 285" role="img"
+     aria-label="Diagrama de cómo medir el diámetro interior de la cesta del portafiltro, que es la medida que define 51, 54 o 58 milímetros"
      xmlns="http://www.w3.org/2000/svg">
-  <title>Dónde se mide</title>
+  <title>Dónde se mide de verdad</title>
   <!-- cesta en seccion: cilindrica, no cónica -->
-  <path d="M150 80 L150 190 Q150 205 165 205 L295 205 Q310 205 310 190 L310 80"
+  <path d="M150 95 L150 205 Q150 220 165 220 L295 220 Q310 220 310 205 L310 95"
         fill="none" stroke="currentColor" stroke-width="2.5"/>
-  <ellipse cx="230" cy="80" rx="80" ry="15" fill="none"
+  <ellipse cx="230" cy="95" rx="80" ry="15" fill="none"
            stroke="currentColor" stroke-width="2.5"/>
+  <!-- pared: el interior queda por dentro del borde -->
+  <ellipse cx="230" cy="97" rx="72" ry="13" fill="none"
+           stroke="currentColor" stroke-width="1.5" opacity=".55"/>
   <!-- perforaciones del fondo -->
   <g opacity=".5">
-    <line x1="175" y1="203" x2="175" y2="212" stroke="currentColor" stroke-width="1.5"/>
-    <line x1="200" y1="205" x2="200" y2="214" stroke="currentColor" stroke-width="1.5"/>
-    <line x1="230" y1="206" x2="230" y2="215" stroke="currentColor" stroke-width="1.5"/>
-    <line x1="260" y1="205" x2="260" y2="214" stroke="currentColor" stroke-width="1.5"/>
-    <line x1="285" y1="203" x2="285" y2="212" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="175" y1="218" x2="175" y2="227" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="200" y1="220" x2="200" y2="229" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="230" y1="221" x2="230" y2="230" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="260" y1="220" x2="260" y2="229" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="285" y1="218" x2="285" y2="227" stroke="currentColor" stroke-width="1.5"/>
   </g>
-  <!-- cota del diámetro exterior -->
-  <g stroke="currentColor" stroke-width="1.5">
-    <line x1="150" y1="45" x2="310" y2="45"/>
-    <path d="M150 45 l8 -4 v8 z" fill="currentColor" stroke="none"/>
-    <path d="M310 45 l-8 -4 v8 z" fill="currentColor" stroke="none"/>
-    <line x1="150" y1="52" x2="150" y2="72" stroke-dasharray="3 3" opacity=".6"/>
-    <line x1="310" y1="52" x2="310" y2="72" stroke-dasharray="3 3" opacity=".6"/>
+  <!-- cota BUENA: diametro interior -->
+  <g stroke="currentColor" stroke-width="1.8">
+    <line x1="158" y1="60" x2="302" y2="60"/>
+    <path d="M158 60 l9 -4.5 v9 z" fill="currentColor" stroke="none"/>
+    <path d="M302 60 l-9 -4.5 v9 z" fill="currentColor" stroke="none"/>
+    <line x1="158" y1="67" x2="158" y2="90" stroke-dasharray="3 3" opacity=".6"/>
+    <line x1="302" y1="67" x2="302" y2="90" stroke-dasharray="3 3" opacity=".6"/>
   </g>
-  <text x="230" y="35" text-anchor="middle" font-size="14" font-weight="700"
-        fill="currentColor">diámetro exterior</text>
-  <text x="230" y="240" text-anchor="middle" font-size="11.5" fill="currentColor"
-        opacity=".7">Saca la cesta del portafiltro y mide el borde de fuera</text>
+  <text x="230" y="50" text-anchor="middle" font-size="14" font-weight="700"
+        fill="currentColor">interior · esta es la medida</text>
+  <!-- cota MALA: borde exterior, marcada como error -->
+  <g stroke="currentColor" stroke-width="1.2" opacity=".4">
+    <line x1="150" y1="25" x2="310" y2="25" stroke-dasharray="5 4"/>
+    <path d="M150 25 l7 -3.5 v7 z" fill="currentColor" stroke="none"/>
+    <path d="M310 25 l-7 -3.5 v7 z" fill="currentColor" stroke="none"/>
+  </g>
+  <text x="230" y="16" text-anchor="middle" font-size="10.5" fill="currentColor"
+        opacity=".5">borde exterior · NO es esta (unos 70 mm en una de 58)</text>
+  <text x="230" y="255" text-anchor="middle" font-size="11.5" fill="currentColor"
+        opacity=".75">Mide por dentro de la cesta, donde apoya el café</text>
+  <text x="230" y="272" text-anchor="middle" font-size="10" fill="currentColor"
+        opacity=".55">Fuente de la cota: catálogo técnico de IMS Filtri</text>
 </svg>
-    <figcaption>Dónde se mide: el borde exterior de la cesta.</figcaption>
+    <figcaption>Dónde se mide: por dentro de la cesta, no en el borde exterior.</figcaption>
   </figure>
 </div></main>
 <footer class="pie">

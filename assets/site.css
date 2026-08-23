@@ -285,3 +285,9 @@ text-transform:uppercase;opacity:.6;padding:.6rem .8rem;border-bottom:1px solid 
 .tm tr:hover td{background:color-mix(in srgb,var(--cobre) 5%,transparent)}
 .tm__m{font-family:var(--mono);font-weight:600;white-space:nowrap}
 .tm__no{opacity:.42;font-size:.88em}
+
+/* sugerencia marcada con teclado */
+.sug--on{background:color-mix(in srgb,var(--cobre) 12%,transparent)}
+.sug--on a{color:var(--cobre)}
+.sug .vacio{padding:.85rem 1rem;font-size:.93rem;line-height:1.6;opacity:.9}
+.sug .vacio a{color:var(--cobre);text-decoration:underline}
