@@ -270,3 +270,9 @@ color:var(--cobre);transition:transform .18s ease}
 .ficha2__pend{margin:.7rem 0 0;padding:.8rem 1rem;border-left:3px solid var(--cobre);
 background:color-mix(in srgb,var(--cobre) 7%,transparent);border-radius:0 6px 6px 0;
 font-size:.9rem;line-height:1.6;max-width:56ch}
+
+/* medida en disputa: honestidad por delante de la venta */
+.disputa{max-width:66ch;margin:0 0 2rem;padding:1rem 1.15rem;
+border:1px solid var(--cobre);border-radius:8px;
+background:color-mix(in srgb,var(--cobre) 9%,transparent)}
+.disputa p{margin:0;font-size:.94rem;line-height:1.65}
